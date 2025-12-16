@@ -28,7 +28,8 @@ Alur program dijalankan sebagai berikut:
 6. Skor dihitung
 7. Evaluasi hasil (Lulus / Tidak Lulus)
 8. Program selesai (Finish)
-![Flowchart Aplikasi](flowchart.png)
+
+![Flowchart Aplikasi](flowchart bkpp 2.png)
 
 ---
 
