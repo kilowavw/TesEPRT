@@ -33,7 +33,7 @@ func main() {
 			}
 		} else if pilihan == 2 {
 			fmt.Println("Anda memilih Soal 2")
-			fmt.Println("Siapa presiden Indonesia __ (huruf kecil)")
+			fmt.Println("Who is the president of Indonesia? __ (huruf kecil)")
 			var soal2 string
 			fmt.Scan(&soal2)
 			if soal2 == "prabowo" {
@@ -44,10 +44,14 @@ func main() {
 			}
 		} else if pilihan == 3 {
 			fmt.Println("Anda memilih Soal 3")
-			fmt.Println("Apakah ijazah jokowi asli (tulis true atau false)")
+			fmt.Println("Rani don't like rain, she won't go when it rains")
+			fmt.Println("Well it's raining today.")
+			fmt.Println("Then Rani won't go")
+			fmt.Println("-----------------------------")
+			fmt.Println("is the statement Rani won't go true ? (tulis true atau false)")
 			var soal3 bool
 			fmt.Scan(&soal3)
-			if soal3 == false {
+			if soal3 == true {
 				fmt.Println("Jawaban Benar")
 				soal3benar = true
 			} else {
@@ -55,7 +59,8 @@ func main() {
 			}
 		} else if pilihan == 4 {
 			fmt.Println("Anda memilih Soal 4")
-			fmt.Println("Berapa angka dari phi")
+			fmt.Println("Do you know the value of phi is three point one four?")
+			fmt.Println("three point one four in decimal are _.__?")
 			var soal4 float64
 			fmt.Scan(&soal4)
 			if soal4 == 3.14 {
@@ -66,7 +71,10 @@ func main() {
 			}
 		} else if pilihan == 5 {
 			fmt.Println("Anda memilih Soal 5")
-			fmt.Println("Berapa 1+1 = ")
+			fmt.Println("Prabowo have 1 ball")
+			fmt.Println("Jokowi give him 1 more ball")
+			fmt.Println("-----------------------------")
+			fmt.Println("How many balls does Prabowo have now? _")
 			var soal5 int
 			fmt.Scan(&soal5)
 			if soal5 == 2 {
@@ -78,7 +86,7 @@ func main() {
 		} else if pilihan == 6 {
 			fmt.Println("Anda memilih Keluar")
 			if soal1benar && soal2benar && soal3benar && soal4benar && soal5benar {
-				fmt.Println("Selamat Anda Lulus dengan Nilai 100 🎉🎉🎉")
+				fmt.Println("Selamat Anda Lulus Tes Inggris dengan Nilai 100 🎉🎉🎉")
 			} else if soal1benar || soal2benar || soal3benar || soal4benar || soal5benar {
 				if soal1benar {
 					nilai += 20
