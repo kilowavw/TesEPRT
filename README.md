@@ -29,7 +29,7 @@ Alur program dijalankan sebagai berikut:
 7. Evaluasi hasil (Lulus / Tidak Lulus)
 8. Program selesai (Finish)
 
-![Flowchart Aplikasi](flowchart bkpp 2.png)
+![Flowchart Aplikasi](flowchart.png)
 
 ---
 
