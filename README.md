@@ -42,7 +42,7 @@ Alur program dijalankan sebagai berikut:
 
 | Nilai                                  |
 | -------------------------------------- |
-| ≧60 =** LULUS** <60 =**  TIDAK LULUS** |
+| ≧60 = LULUS <60 =  TIDAK LULUS |
 
 ---
 
@@ -63,19 +63,19 @@ Alur program dijalankan sebagai berikut:
 2. Clone repository ini:
 
    ```bash
-   git clone https://github.com/username-kamu/quiz-cli-go.git
+   https://github.com/kilowavw/TesEPRT.git
    ```
 
 3. Masuk ke folder project:
 
    ```bash
-   cd quiz-cli-go
+   cd TesEPRT
    ```
 
 4. Jalankan program:
 
    ```bash
-   go run main.go
+   go run Tubes.go
    ```
 
 ---
@@ -83,7 +83,7 @@ Alur program dijalankan sebagai berikut:
 ## 📁 Struktur Folder
 
 ```
-quiz-cli-go/
+TesEPrT/
 │
 ├── main.go        # Source code utama
 ├── README.md      # Dokumentasi project
@@ -121,6 +121,6 @@ Silahkan Pilih Menu:
 
 **Raka Satria Hafiz**
 
-**MUHAMMAD FAKHRY AL GUSRA**\
+**MUHAMMAD FAKHRY AL GUSRA**
 
 ---
